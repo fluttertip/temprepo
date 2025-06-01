@@ -31,7 +31,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-  flutter_native_splash: ^2.4.6
+  # flutter_native_splash: ^2.4.6
   just_audio: ^0.10.3
 
 dev_dependencies:
@@ -76,7 +76,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-flutter_native_splash:
+# flutter_native_splash:
   # This package generates native code to customize Flutter's default white native splash screen
   # with background color and splash image.
   # Customize the parameters below, and run the following command in the terminal:
@@ -94,10 +94,10 @@ flutter_native_splash:
   # size of the app. Only one parameter can be used, color and background_image cannot both be set.
   # color: "#42a5f5"
   # image: "assets/images/openart-image_tNi0p7NF_1748274204323_raw.jpg"
-  background_image: "assets/images/openart-image_tNi0p7NF_1748274204323_raw.jpg"
-  android: true
-  ios: true
-  web: false
+  # background_image: "assets/images/openart-image_tNi0p7NF_1748274204323_raw.jpg"
+  # android: true
+  # ios: true
+  # web: false
 
   # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
   # the leading # character.
@@ -132,7 +132,7 @@ flutter_native_splash:
   # From Android 12 onwards, the splash screen is handled differently than in previous versions.
   # Please visit https://developer.android.com/guide/topics/ui/splash-screen
   # Following are specific parameters for Android 12+.
-  android_12:
+  # android_12:
     # The image parameter sets the splash screen icon image.  If this parameter is not specified,
     # the app's launcher icon will be used instead.
     # Please note that the splash screen will be clipped to a circle on the center of the screen.
@@ -145,13 +145,13 @@ flutter_native_splash:
     #image: assets/android12splash.png
 
     # Splash screen background color.
-    color: "#42a5f5"
+    # color: "#42a5f5"
 
     # App icon background color.
     #icon_background_color: "#111111"
 
     # The branding property allows you to specify an image used as branding in the splash screen.
-    image: assets/images/bhagchal_app_splash_screen.png
+    # image: assets/images/bhagchal_app_splash_screen.png
 
     # The image_dark, color_dark, icon_background_color_dark, and branding_dark set values that
     # apply when the device is in dark mode. If they are not specified, the app will use the

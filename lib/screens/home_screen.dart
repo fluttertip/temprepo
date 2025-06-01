@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
             'assets/images/openart-image_FtIYq2cR_1748273727660_raw.jpg',
             fit: BoxFit.cover,
           ),
-          Container(color: Colors.black.withOpacity(0.4)),
+          Container(color: Colors.black.withOpacity(0.5)),
 
           // Top Banner Ad Placeholder
           // Align(
@@ -46,17 +46,17 @@ class HomeScreen extends StatelessWidget {
                   horizontal: 24,
                 ),
                 decoration: BoxDecoration(
-                  color: Colors.brown.shade900.withOpacity(0.1),
+                  color: Colors.brown.shade900.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
+                      color: Colors.black.withOpacity(0.2),
                       offset: const Offset(0, 6),
                       blurRadius: 12,
                     ),
                   ],
                   border: Border.all(
-                    color: Colors.brown.shade300.withOpacity(0.2),
+                    color: Colors.brown.shade300.withOpacity(0.3),
                     width: 1.5,
                   ),
                 ),
@@ -88,19 +88,18 @@ class HomeScreen extends StatelessWidget {
 
                     const SizedBox(height: 30),
 
-                    _OptionButton(
-                      icon: Icons.group,
-                      label: 'Multiplayer',
-                      onPressed: () {},
-                    ),
-
+                    // _OptionButton(
+                    //   icon: Icons.group,
+                    //   label: 'Multiplayer',
+                    //   onPressed: () {},
+                    // ),
                     const SizedBox(height: 20),
 
-                    _OptionButton(
-                      icon: Icons.settings,
-                      label: 'Settings',
-                      onPressed: () {},
-                    ),
+                    // _OptionButton(
+                    //   icon: Icons.settings,
+                    //   label: 'Settings',
+                    //   onPressed: () {},
+                    // ),
                   ],
                 ),
               ),
