@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../utils/constants.dart';
 
-class GameBoard extends StatelessWidget {
+class TwoPlayerGameBoard extends StatelessWidget {
   final GameState gameState;
   final void Function(int nodeIndex) onTap;
 
-  const GameBoard({super.key, required this.gameState, required this.onTap});
+  const TwoPlayerGameBoard({super.key, required this.gameState, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

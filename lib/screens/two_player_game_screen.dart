@@ -1,6 +1,6 @@
+import 'package:bhagchal/widgets/two_player_game_board_ads.dart';
 import 'package:flutter/material.dart';
 import '../models/game_state.dart';
-import '../widgets/game_board.dart';
 import 'dart:async';
 
 class GameScreen extends StatefulWidget {
@@ -306,7 +306,7 @@ class _GameScreenState extends State<GameScreen> {
                 padding: const EdgeInsets.only(
                   bottom: 20,
                 ), // Add bottom padding
-                child: GameBoard(gameState: _gameState, onTap: _handleTap),
+                child: TwoPlayerGameBoard(gameState: _gameState, onTap: _handleTap),
               ),
               // ),
               // ),

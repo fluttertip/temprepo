@@ -1,5 +1,6 @@
+import 'package:bhagchal/screens/two_player_game_screen.dart';
 import 'package:flutter/material.dart';
-import 'game_screen.dart';
+import 'TwoPlayerOfflineGameScreen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
