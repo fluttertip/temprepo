@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "107767614847",
+    "firebase_url": "https://bhagchal-d19c7-default-rtdb.firebaseio.com",
+    "project_id": "bhagchal-d19c7",
+    "storage_bucket": "bhagchal-d19c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107767614847:android:48f13c01f44fee44fe5e4a",
+        "android_client_info": {
+          "package_name": "com.example.bhagchal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0BMvZsyhUCDpy8ztOq5RzINl5TVQP9m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

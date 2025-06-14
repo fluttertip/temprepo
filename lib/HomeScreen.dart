@@ -1,4 +1,4 @@
-import 'package:bhagchal/PlayWithBots/screens/playbot_game_screen.dart';
+import 'package:bhagchal/MultiplayerMode/screens/multiplayer_lobby_screen.dart';
 import 'package:bhagchal/TwoPlayerOfflineMode/screens/Two_Player_game_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -90,8 +90,15 @@ class HomeScreen extends StatelessWidget {
 
                     _OptionButton(
                       icon: Icons.group,
-                      label: 'Multiplayer',
-                      onPressed: () {},
+                      label: 'Multiplayer comming soon',
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const MultiplayerLobbyScreen(),
+                          ),
+                        );
+                      },
                     ),
                     const SizedBox(height: 20),
 
