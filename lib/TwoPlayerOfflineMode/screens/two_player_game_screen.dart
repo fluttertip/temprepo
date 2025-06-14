@@ -1,7 +1,8 @@
-import 'package:bhagchal/widgets/two_player_game_board_ads.dart';
-import 'package:flutter/material.dart';
-import '../models/game_state.dart';
 import 'dart:async';
+
+import 'package:bhagchal/TwoPlayerOfflineMode/widgets/two_player_game_board_ads.dart';
+import 'package:flutter/material.dart';
+import '../models/two_player_game_state.dart';
 
 class GameScreen extends StatefulWidget {
   const GameScreen({super.key});
@@ -306,7 +307,10 @@ class _GameScreenState extends State<GameScreen> {
                 padding: const EdgeInsets.only(
                   bottom: 20,
                 ), // Add bottom padding
-                child: TwoPlayerGameBoard(gameState: _gameState, onTap: _handleTap),
+                child: TwoPlayerGameBoard(
+                  gameState: _gameState,
+                  onTap: _handleTap,
+                ),
               ),
               // ),
               // ),

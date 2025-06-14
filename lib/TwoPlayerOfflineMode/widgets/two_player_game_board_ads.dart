@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/game_state.dart';
+import '../models/two_player_game_state.dart';
 import '../utils/constants.dart';
 
 class TwoPlayerGameBoard extends StatelessWidget {

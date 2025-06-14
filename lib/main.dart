@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/HomeScreen.dart';
+import 'HomeScreen.dart';
 
 void main() {
   runApp(const BhagchalApp());

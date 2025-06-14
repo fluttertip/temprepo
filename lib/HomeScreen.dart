@@ -1,6 +1,6 @@
-import 'package:bhagchal/screens/two_player_game_screen.dart';
+import 'package:bhagchal/PlayWithBots/screens/playbot_game_screen.dart';
+import 'package:bhagchal/TwoPlayerOfflineMode/screens/Two_Player_game_screen.dart';
 import 'package:flutter/material.dart';
-import 'TwoPlayerOfflineGameScreen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -70,12 +70,11 @@ class HomeScreen extends StatelessWidget {
                     //   onPressed: () {
                     //     Navigator.push(
                     //       context,
-                    //       MaterialPageRoute(builder: (_) => const GameScreen()),
+                    //       MaterialPageRoute(builder: (_) => const PlayBotGameScreen()),
                     //     );
                     //   },
                     // ),
-                    const SizedBox(height: 30),
-
+                    // const SizedBox(height: 30),
                     _OptionButton(
                       icon: Icons.play_arrow,
                       label: '2 Player Offfline',
@@ -89,11 +88,11 @@ class HomeScreen extends StatelessWidget {
 
                     const SizedBox(height: 30),
 
-                    // _OptionButton(
-                    //   icon: Icons.group,
-                    //   label: 'Multiplayer',
-                    //   onPressed: () {},
-                    // ),
+                    _OptionButton(
+                      icon: Icons.group,
+                      label: 'Multiplayer',
+                      onPressed: () {},
+                    ),
                     const SizedBox(height: 20),
 
                     // _OptionButton(
